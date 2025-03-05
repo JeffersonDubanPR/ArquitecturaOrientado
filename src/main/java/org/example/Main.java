@@ -9,7 +9,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         List<CuentaBancaria> cuentas = new ArrayList<>();
 
-        // Crear cuentas
         cuentas.add(new CuentaBancaria("Wilson Gomez", "12356343", 100000));
         cuentas.add(new CuentaBancaria("Paula Gómez", "12464546", 34000));
         cuentas.add(new CuentaBancaria("Cristian Cano", "13247578", 1000));
